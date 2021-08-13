@@ -45,7 +45,7 @@ The last step is adding `--https` parameter to `svelte-kit` commands in `package
 	"scripts": {
 		"start": "node ./build --https",
 		"dev": "svelte-kit dev --https",
-		"build": "svelte-kit build --https",
+		"build": "svelte-kit build",
 		"preview": "svelte-kit preview --https",
 	}
 }
