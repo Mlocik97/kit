@@ -24,8 +24,11 @@ Then, You set cert and key properties in `svelte.config.js` in `config.kit.vite.
 // svelte.config.js
 import fs from 'fs';
 
+import adapter_node from '@sveltejs/adapter-node';
+
 export default {
 	kit: {
+		adapter: adapter_node(),
 		vite: {
 			server: {
 				https: {
