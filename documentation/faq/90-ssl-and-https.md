@@ -2,7 +2,7 @@
 question: How do I make Svelte-kit run on HTTPS using node adapter?
 ---
 
-First, You will need to get certificate. You can use Let's encrypt and generate certificate on [certbot](https://certbot.eff.org/) website, or generate Your own certificate with command:
+First, You will need to get certificate. You can use Let's encrypt and generate certificate by following [certbot](https://certbot.eff.org/lets-encrypt/snap-webproduct) instructions, or generate Your own certificate with command:
 
 ```sh
 openssl req -newkey rsa:4096 \
