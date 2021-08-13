@@ -41,12 +41,12 @@ export default {
 The last step is adding `--https` parameter to `svelte-kit` commands in `package.json` scripts.
 
 ```json
-{	
+{
 	"scripts": {
-    	"start": "node ./build --https",
-    	"dev": "svelte-kit dev --https",
-    	"build": "svelte-kit build --https",
-    	"preview": "svelte-kit preview --https",
+		"start": "node ./build --https",
+		"dev": "svelte-kit dev --https",
+		"build": "svelte-kit build --https",
+		"preview": "svelte-kit preview --https",
 	}
 }
 ```
